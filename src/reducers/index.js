@@ -10,6 +10,7 @@ import phrasesEntireReducer from './phrasesEntireReducer';
 import phraseUsesEntireReducer from './phraseUsesEntireReducer';
 import examples from './examplesReducer';
 import examplesEntire from './examplesEntireReducer';
+import toSendObjReducer from './toSendObjReducer';
 
 const rootReducer = combineReducers({
 	lessons,
@@ -22,7 +23,8 @@ const rootReducer = combineReducers({
 	entirePhrases: phrasesEntireReducer,
 	entirePhraseUses: phraseUsesEntireReducer,
 	examples,
-	entireExamples: examplesEntire
+	entireExamples: examplesEntire,
+	objsToSend: toSendObjReducer
 });
 
 export default rootReducer;

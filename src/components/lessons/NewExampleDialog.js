@@ -60,7 +60,7 @@ class NewExampleDialog extends React.Component {
 	render() {
 		return (
 			<div>
-				<FlatButton label="Add New Example" onTouchTap={this.handleOpen} />
+				<FlatButton label="Different meaning" onTouchTap={this.handleOpen} />
 				<Dialog
 					title="Add New Example"
 					actions={<FlatButton label="Ok" onTouchTap={this.handleSave} />}

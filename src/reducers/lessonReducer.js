@@ -26,7 +26,8 @@ export default function lessonReducer(state = initialState.lesson, action) {
 					secondLanguage: {
 						id: action.lesson.secondLanguage.id,
 						name: action.lesson.secondLanguage.name
-					}
+					}, 
+					id: action.lesson.id
 			});
 		}
  

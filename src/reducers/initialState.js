@@ -1,3 +1,6 @@
+
+let empty = Object.assign({});
+
 export default {
 	authors: [],
 	lessons: [],
@@ -14,5 +17,8 @@ export default {
 	entirePhraseUses: [],
 	
 	examples: [],
-	entireExamples: []
+	entireExamples: [],
+
+	objsToSend: Object.assign({}, {'firstToSend': Object.assign({}), 'secondToSend': Object.assign({})})
+
 };

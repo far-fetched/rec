@@ -2,7 +2,7 @@ import React, {PropTypes} from 'react';
 import Header from './common/Header';
 import {connect} from 'react-redux';
 import mui from 'material-ui';
-import baseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
+import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
