@@ -1,5 +1,5 @@
 import * as types from './actionTypes';
-import {beginAjaxCall} from './ajaxStatusActions';
+import {beginAjaxCall, ajaxCallError} from './ajaxStatusActions';
 
 function parseJSON(res) {
 	return res.json();

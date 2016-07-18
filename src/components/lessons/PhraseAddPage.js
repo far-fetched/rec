@@ -81,7 +81,7 @@ class PhraseAddDialog extends React.Component {
 		}
 
 	}
-
+/*
 	onNewRequest(value) {
 		
 		if (value.substring(0, 14)==="Add new phrase") {
@@ -95,7 +95,7 @@ class PhraseAddDialog extends React.Component {
 		}
 
 	}
-
+*/
 	onNewRequestSec(value) {
 		
 		if (value.substring(0, 14)==="Add new phrase") {
@@ -206,7 +206,7 @@ class PhraseAddDialog extends React.Component {
 
 					<TextField
 						floatingLabelText="Description"
-      					floatingLabelFixed={true}
+						floatingLabelFixed={true}
 						value={this.props.firstToSend.phraseInfo.description}
 					/><br />
 					<Checkbox
@@ -215,7 +215,7 @@ class PhraseAddDialog extends React.Component {
 					/><br />
 					<TextField
 						floatingLabelText="Part of speech"
-      					floatingLabelFixed={true}
+						floatingLabelFixed={true}
 						value={this.props.firstToSend.phraseInfo.partOfSpeach}
 					/>
 					</div>}
@@ -254,7 +254,7 @@ class PhraseAddDialog extends React.Component {
 
 					<TextField
 						floatingLabelText="Description"
-      					floatingLabelFixed={true}
+						floatingLabelFixed={true}
 						value={this.props.secondToSend.phraseInfo.description}
 					/><br />
 					<Checkbox
@@ -263,7 +263,7 @@ class PhraseAddDialog extends React.Component {
 					/><br />
 					<TextField
 						floatingLabelText="Part of speech"
-      					floatingLabelFixed={true}
+						floatingLabelFixed={true}
 						value={this.props.secondToSend.phraseInfo.partOfSpeach}
 					/>
 					</div>}
